@@ -4,16 +4,18 @@
   "description": "Fitness app for losing weight and staying fit",
   "main": "src/index.js",
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
-    "axios": "^0.24.0"
+    "react-router-dom": "^6.28.2",
+    "web-vitals": "^4.2.4"
   },
   "devDependencies": {
     "react-scripts": "^5.0.0"
